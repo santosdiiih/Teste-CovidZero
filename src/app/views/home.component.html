@@ -1,0 +1,55 @@
+<style>
+*{
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  font-weight: 500;
+}
+h1{
+  text-align: center;
+  font-size: 3.3em;
+  padding-top: 35px;
+}
+header{
+  width: 100%;
+  height: 150px;
+  background-color: #34515e;
+}
+
+.main{
+  width: 100%;
+  height: 550px;
+  background-color: #8eacbb;
+}
+footer{
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: #34515e;
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Covid-19 </title>
+    </head>
+   <body ng-app="App">
+        <header>
+            
+            <h1> Covid-19 </h1>
+            <!-- Menu de navegação -->
+            <app-nav-bar></app-nav-bar>
+        </header>
+        <main class="main">
+            <router-outlet></router-outlet>
+        </main>
+        <footer>
+            <p> Desenvolvido por Ingrid Aparecida </p>
+        </footer>
+   </body>
+
+</html>

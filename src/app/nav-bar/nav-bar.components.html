@@ -1,0 +1,28 @@
+<style>
+    nav{
+        height: 100px;
+        margin-bottom: 20px;
+        
+    }
+    a{
+        height: 50px;
+        margin-left: 30px;
+        text-align: center;
+        font-size: 1.5em;
+        margin-right: 30px;
+        text-decoration: none;
+        color: black;
+        padding-bottom: 20px;
+        
+    }
+    a:hover{
+        color: #607d8b;
+    }
+</style>
+
+<nav>
+    <a href=""> Home </a>
+    <a [routerLink]="['/grafico']" > Graphic </a>
+    <a [routerLink]="['/dados']"> Data </a>
+
+</nav>
