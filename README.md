@@ -1,4 +1,4 @@
-# A pagina tem por objetivoo exibir uma lista de casos contendo as seguintes informações.
+# A pagina tem por objetivo exibir uma lista de casos contendo as seguintes informações:
   - Cidade
   - Codigo do estado
   - mortes
